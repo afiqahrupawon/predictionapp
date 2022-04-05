@@ -5,7 +5,7 @@ import pickle
 
 
 # load the model from disk
-loaded_model = pickle.load(open('model_pkl', 'rb'))
+loaded_model = pickle.load(open('model.pkl', 'rb'))
 
 
 
