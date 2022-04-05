@@ -35,8 +35,8 @@ age = st.slider("Your age", 18, 100)
 sex = st.slider("Please select your gender [0 is for 'Male', 1 is for 'Female']", 0, 1) 
 bmi = st.slider("Your BMI", 10, 50)
 children = st.slider("Number of children", 0, 15)
-smoker = st.selectbox("Please select if you are a smoker or not [0 is for 'No', 1 is for 'Yes']", 0, 1)
-region = st.selectbox("Please select your region [0 is for 'southwest', 1 is for 'southeast', 2 is for'northwest', 1 is for 'northeast' ]", 0, 3)
+smoker = st.slider("Please select if you are a smoker or not [0 is for 'No', 1 is for 'Yes']", 0, 1)
+region = st.slider("Please select your region [0 is for 'southwest', 1 is for 'southeast', 2 is for'northwest', 1 is for 'northeast' ]", 0, 3)
 
     
 
