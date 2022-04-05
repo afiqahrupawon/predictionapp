@@ -20,7 +20,7 @@ if readme:
     st.write("""
         This web app is a demo using [streamlit](https://streamlit.io/) library. It is hosted on [heroku](https://www.heroku.com/). You may get the codes via [github](https://github.com/afiqahrupawon/myownweb)
         """)
-    st.write ("The prediction for this web app is done using Linear Regression model. Please note that this model might not result in the best prediction")
+    st.write ("The prediction for this web app is done using Linear Regression model. Please note that this model might not result in the best prediction.")
     
     st.write ("For more info, please contact:")
 
@@ -53,3 +53,7 @@ if st.button('Predict'):      # when the submit button is pressed
     prediction =  loaded_model.predict(final_features)
     st.balloons()
     st.success(f'Your insurance charges is predicted to be: ${round(prediction[0],2)}')
+    
+    
+#CREDIT
+st.write("This app is inspired and referred from this [website](https://medium.com/swlh/a-machine-learning-web-app-to-predict-insurance-claim-charges-533f6e8179f1) and [github](https://github.com/anjuraj-ops/Machine-learning-web-apps).")
