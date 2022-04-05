@@ -41,7 +41,7 @@ region = st.slider("Please select your region [0 is for 'southwest', 1 is for 's
     
 
 # store the inputs
-features = [age, sex, bmi, children, , smoker, region]
+features = [age, sex, bmi, children, smoker, region]
 
 # convert user inputs into an array fr the model
 int_features = [int(x) for x in features]
